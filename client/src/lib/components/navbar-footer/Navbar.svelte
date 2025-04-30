@@ -14,8 +14,6 @@
 		height: auto;
 		border: 1px solid red;
 		display: flex;
-		/* justify-content: space-between; */
-		/* align-items: center; */
 
 		& > div {
 			display: inherit;

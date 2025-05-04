@@ -4,6 +4,6 @@
 
 <main>
 	<div class="wrapper">
-		<h1>Random Stuff that Helps and Includes Tools!</h1>
+		<h1>Random Stuff and Handy Interesting Tools!</h1>
 	</div>
 </main>

@@ -5,7 +5,21 @@
 
 	--primary: #ffede3;
 	--secondary: #cae7f7;
+
 	--accent: #fb4d00;
+	--accent-50: #fff6ec;
+	--accent-100: #ffebd3;
+	--accent-200: #ffd4a5;
+	--accent-300: #ffb56d;
+	--accent-400: #ff8a32;
+	--accent-500: #ff680a;
+	--accent-600: #fb4d00;
+	--accent-700: #cc3602;
+	--accent-800: #a12b0b;
+	--accent-900: #82260c;
+	--accent-950: #461004;
+
+	--btn-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.3), 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .roboto-condensed {

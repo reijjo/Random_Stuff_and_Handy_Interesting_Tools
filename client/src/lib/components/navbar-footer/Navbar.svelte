@@ -5,7 +5,10 @@
 <nav>
 	<div class="wrapper">
 		<a href="/">home</a>
-		<Button className="btn-filled">Im a button</Button>
+		<div class="nav-buttons">
+			<Button className="btn-outline">Im a OUTLINE button</Button>
+			<Button className="btn-filled">Im a FILLED button</Button>
+		</div>
 	</div>
 </nav>
 
@@ -20,5 +23,10 @@
 			align-items: center;
 			justify-content: space-between;
 		}
+	}
+
+	.nav-buttons {
+		display: flex;
+		gap: 1rem;
 	}
 </style>

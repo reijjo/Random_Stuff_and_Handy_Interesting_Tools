@@ -1,0 +1,41 @@
+button {
+	all: unset;
+}
+
+.btn {
+	cursor: pointer;
+	text-align: center;
+}
+
+.btn-filled,
+.btn-outline {
+	padding: 0.25rem 1rem;
+	border-radius: 0.5rem;
+
+	&:active {
+		scale: 0.975;
+	}
+}
+
+.btn-filled {
+	border: 1px solid transparent;
+
+	background-color: var(--accent);
+	color: white;
+	box-shadow: var(--btn-shadow);
+
+	&:hover {
+		background-color: var(--accent-700);
+	}
+}
+
+.btn-outline {
+	border: 1px solid var(--accent-200);
+
+	&:hover {
+		box-shadow: var(--btn-shadow);
+		border: 1px solid var(--accent);
+
+		background-color: var(--accent-50);
+	}
+}

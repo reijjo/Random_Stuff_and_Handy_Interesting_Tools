@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Random S.H.I.T. - Random Stuff that Helps and Includes Tools!</title>
+	<title>Random S.H.I.T. - Random Stuff and Handy Interesting Tools!</title>
 </svelte:head>
 
 <main>

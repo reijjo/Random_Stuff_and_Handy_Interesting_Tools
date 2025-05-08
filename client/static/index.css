@@ -3,7 +3,19 @@
 	--secondary: #dcd8db;
 	--accent: #c95e94;
 
-	--primary: #ffede3;
+	--primary: #49261d;
+	--primary-50: #fbf7f1;
+	--primary-100: #f5ecdf;
+	--primary-200: #ead5be;
+	--primary-300: #ddb894;
+	--primary-400: #ce9569;
+	--primary-500: #c47c4b;
+	--primary-600: #b66740;
+	--primary-700: #975237;
+	--primary-800: #7a4332;
+	--primary-900: #63382b;
+	--primary-950: #49261d;
+
 	--secondary: #cae7f7;
 
 	--accent: #fb4d00;
@@ -19,7 +31,7 @@
 	--accent-900: #82260c;
 	--accent-950: #461004;
 
-	--btn-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.3), 0 2px 4px rgba(0, 0, 0, 0.3);
+	--btn-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.25), 0 8px 16px rgba(0, 0, 0, 0.125);
 }
 
 .roboto-condensed {

@@ -1,6 +1,5 @@
 <script lang="ts">
-	import Footer from '$lib/components/navbar-footer/Footer.svelte';
-	import Navbar from '$lib/components/navbar-footer/Navbar.svelte';
+	import { Navbar, Footer } from '$lib';
 
 	let { children } = $props();
 </script>
@@ -17,7 +16,9 @@
 	.layout {
 		display: grid;
 		grid-template-rows: 10dvh 1fr 10dvh;
-		height: 100dvh;
+		min-height: 100dvh;
+		height: 100%;
+		position: relative;
 	}
 
 	.content {

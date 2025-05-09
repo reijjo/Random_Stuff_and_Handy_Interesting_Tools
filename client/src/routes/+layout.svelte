@@ -15,7 +15,7 @@
 <style>
 	.layout {
 		display: grid;
-		grid-template-rows: 10dvh 1fr 10dvh;
+		grid-template-rows: 8dvh 1fr 8dvh;
 		min-height: 100dvh;
 		height: 100%;
 		position: relative;

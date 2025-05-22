@@ -11,6 +11,8 @@ button {
 .btn-outline {
 	padding: 0.25rem 1rem;
 	border-radius: 0.5rem;
+	display: grid;
+	place-content: center;
 
 	&:active {
 		scale: 0.975;

@@ -17,8 +17,8 @@
 
 {#if visible}
 	<section class="feature-section" in:fly={{ y: 200, duration: 2000 }} out:fade>
-		<article class="wrapper">
-			<div class="feature-text {reverse ? 'reverse' : ''}">
+		<article class="wrapper feature-article {reverse ? 'reverse' : ''}">
+			<div class="feature-text">
 				<h2>{title}</h2>
 				<p>{desc}</p>
 				<a class="btn btn-outline" href={link}>{linkText}</a>
@@ -32,23 +32,31 @@
 	.feature-section {
 		background-color: var(--primary-800);
 		color: white;
+		width: 100%;
+		height: 50dvh;
 
-		&:last-child {
+		&:nth-child(odd) {
 			background-color: inherit;
 			color: inherit;
 		}
 	}
 
-	article {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 2rem 0;
-		max-width: 800px;
+	.feature-article {
+		display: grid;
+		grid-template-areas: 'text image';
+		grid-template-columns: 1fr 2fr;
+		padding-block: 2rem;
+		height: 100%;
 		gap: 2rem;
+
+		&.reverse {
+			grid-template-areas: 'image text';
+			grid-template-columns: 2fr 1fr;
+		}
 	}
 
 	.feature-text {
+		grid-area: text;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -66,11 +74,11 @@
 		}
 	}
 
-	.reverse {
-		order: 1;
-	}
-
 	.feature-img {
-		width: 20rem;
+		grid-area: image;
+		width: 100%;
+		height: 100%;
+		object-fit: fill;
+		overflow: hidden;
 	}
 </style>

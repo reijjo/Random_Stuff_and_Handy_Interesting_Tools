@@ -16,6 +16,12 @@
 	--primary-900: #63382b;
 	--primary-950: #49261d;
 
+	--primary-base: #7a4332;
+	--primary-dark: #49261d;
+	--primary-light: #b66740;
+	--primary-xlight: #ce9569;
+	--primary-xxlight: #ead5be;
+
 	--secondary: #cae7f7;
 
 	--accent: #fb4d00;
@@ -89,4 +95,5 @@ h6 {
 	width: min(100%, 1366px);
 	padding: 0 1.5rem;
 	margin: 0 auto;
+	/* border: 5px solid red; */
 }
